@@ -1,0 +1,51 @@
+body {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 300;
+
+}
+
+
+.titulo {
+    font-family: 'lobster';
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.nav-list {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+}
+
+.subtitulo {
+    font-size: 1.5rem;
+}
+
+/*Agradecimientos a Luis Disperso Vergara por el codigo para redondear carousel indicators*/
+
+
+.carousel-indicators [data-bs-target] {
+    background-color: #373a3c;
+    /* tamaño, tienen que ser iguales sino, no queda redondo */
+    width: 15px;
+    height: 15px;
+    /* para que se vuelva redondo */
+    border-radius: 50%;
+}
+
+.text-p {
+    font-size: 1.8em;
+}
+
+.seccion-suscripcion span {
+    font-family: 'Lobster';
+}
+
+.seccion-suscripcion {
+    background-color: #DC3545;
+    color: #fff;
+}
+
+footer {
+    background-color: #373A3C;
+    color: #fff;
+}
